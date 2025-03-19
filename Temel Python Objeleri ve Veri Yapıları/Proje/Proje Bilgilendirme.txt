@@ -1,0 +1,67 @@
+Prompt: Bir üniversitede Bilgisayar Mühendisliği bölümünde derslere giren bir öğretim görevlisisin. Öğrencilerinin 'Temel Python Objeleri ve Veri Yapıları' konusunda pratik yapmaları için bir ödev vermek istiyorsun. Nasıl bir ödev verirdin?
+
+📚 ÖDEV: Temel Python Objeleri ve Veri Yapıları
+Ders: Python Programlamaya Giriş
+Amaç: Python'daki temel veri yapıları ve objeler konusunda pratik yaparak bu kavramların pekiştirilmesi.
+
+📝 Ödev Konusu: "Python'da Verileri İşleyerek Anlamlı Bilgiler Çıkarın"
+🔍 Senaryo
+Bir e-ticaret platformunun müşteri sipariş verilerini analiz eden bir Python programı geliştirmeniz istenmektedir. Aşağıdaki görevleri yerine getirerek Python'daki temel veri yapıları ve objeleri kullanma yeteneğinizi geliştireceksiniz.
+
+🚀 Görevler
+1. Liste İşlemleri
+Bir e-ticaret platformundaki ürünlerin fiyatlarını temsil eden aşağıdaki listeyi kullanarak belirtilen görevleri yerine getirin:
+
+urun_fiyatlari = [120, 250, 300, 150, 700, 450, 200, 90, 400, 600]
+
+✅ Görevler:
+Bu listedeki en düşük ve en yüksek fiyatı bulan bir fonksiyon yazın.
+Tüm ürünlerin fiyatlarının ortalamasını hesaplayan bir fonksiyon yazın.
+300 TL üzerindeki ürünlerin sayısını bulun.
+
+2. Sözlük (Dictionary) İşlemleri
+Aşağıdaki müşteri siparişlerini temsil eden sözlüğü kullanın:
+siparisler = {
+    "Ali": [300, 150, 700],
+    "Ayşe": [200, 90],
+    "Mehmet": [120, 250, 400],
+    "Zeynep": [600, 450, 300]
+}
+
+✅ Görevler:
+Her müşterinin toplam harcamasını hesaplayın ve ekrana yazdırın.
+En fazla harcama yapan müşteriyi bulun.
+500 TL üzeri alışveriş yapan müşterileri listeleyin.
+
+3. Karakter Dizileri (String) İşlemleri
+Kullanıcıdan adını, soyadını ve yaşını alarak aşağıdaki formatta çıktı üreten bir program yazın:
+Ad: [Adınız]
+Soyad: [Soyadınız]
+Yaş: [Yaşınız]
+Yaşınızın 5 yıl sonraki hali: [Yaşınız + 5]
+
+4. Ekstra Zorluk (Opsiyonel)
+Bir cümle içindeki her kelimenin kaç kez geçtiğini hesaplayan bir Python programı yazın. Örnek giriş:
+girdi = "Python çok güçlü bir programlama dili ve Python öğrenmesi eğlencelidir."
+Beklenen Çıktı:
+{'Python': 2, 'çok': 1, 'güçlü': 1, 'bir': 1, 'programlama': 1, 'dili': 1, 've': 1, 'öğrenmesi': 1, 'eğlencelidir.': 1}
+
+📋 Teslimat Kuralları
+✅ Kodlarınızın her bir bölümünde açıklama satırları ekleyin.
+✅ Fonksiyon isimleri anlamlı olmalı ve Python'da yazım kurallarına uygun olmalı.
+✅ Ödevinizi py uzantılı dosya olarak teslim ediniz.
+✅ Kodlarınızın çalıştığından emin olun ve test sonuçlarınızı yorum satırları ile belirtin.
+
+🏆 Değerlendirme Kriterleri
+Fonksiyonel doğruluk (%40)
+Kod organizasyonu ve okunabilirlik (%30)
+Yaratıcılık ve problem çözme yaklaşımı (%20)
+Test ve hata yakalama yeteneği (%10)
+
+🔥 Son Teslim Tarihi: [Belirlenecek Tarih]
+Eğer sorularınız olursa bana ulaşmaktan çekinmeyin. Kolay gelsin ve başarılar! 🚀
+
+
+
+
+
