@@ -1,0 +1,65 @@
+Prompt: Bir üniversitede Bilgisayar Mühendisliği bölümünde derslere giren bir öğretim görevlisisin. Öğrencilerinin 'Koşullu Durumlar' konusunda pratik yapmaları için bir ödev vermek istiyorsun. Nasıl bir ödev verirdin?
+
+Ödev Konusu: Koşullu Durumlar (If-Else, Switch-Case) Pratik Çalışması
+Ders: Programlama 101
+Teslim Tarihi: [Belirtilen tarih]
+Teslim Şekli: Kod dosyası + Açıklayıcı rapor
+
+Ödev Tanımı
+Bu ödevde öğrenciler, koşullu durumları (if-else, switch-case) kullanarak problem çözme becerilerini geliştireceklerdir. Aşağıda farklı seviyelerde 3 görev bulunmaktadır. Her görev, temel programlama becerilerini geliştirmek için tasarlanmıştır.
+
+Görevler
+Görev 1: Not Hesaplama (Kolay Seviye)
+Senaryo: Bir öğrenci not sistemi oluşturun. Kullanıcıdan 0-100 aralığında bir not girmesini isteyin. Not aralığına göre harf notunu belirleyen bir program yazın.
+
+Not Aralığı	Harf Notu
+90 - 100	AA
+80 - 89	BA
+70 - 79	BB
+60 - 69	CB
+50 - 59	CC
+40 - 49	DC
+30 - 39	DD
+0 - 29	FF
+Ekstra: Geçersiz not girişlerini tespit ederek kullanıcıya uyarı verin.
+
+Görev 2: ATM İşlemi (Orta Seviye)
+Senaryo: Bir ATM sistemi simülasyonu oluşturun. Kullanıcıdan aşağıdaki seçeneklerden birini seçmesini isteyin:
+
+Bakiye Görüntüleme
+Para Yatırma
+Para Çekme
+Çıkış
+Kullanıcı her işlem yaptığında, bakiyeyi güncelleyin ve sonucu ekrana yazdırın.
+Para çekme işleminde, bakiyenin yeterli olup olmadığını kontrol edin.
+Yanlış seçim yapıldığında, kullanıcıya uyarı verin ve tekrar denemesini isteyin.
+Görev 3: Takvim Uygulaması (Zor Seviye)
+Senaryo: Kullanıcıdan bir ay numarası (1-12) ve yıl bilgisi alın. O aya ait toplam gün sayısını ekrana yazdıran bir program oluşturun.
+
+Şubat ayının 28 mi yoksa 29 gün mü olduğunu tespit etmek için artık yıl kontrolü ekleyin.
+Artık yıl hesaplama yöntemi:
+Yıl 4'e tam bölünebiliyorsa ve 100'e tam bölünemiyorsa veya 400'e tam bölünebiliyorsa artık yıldır.
+Örnek Girdi:
+Ay Numarası: 2
+Yıl: 2024
+Çıktı:
+Şubat ayı 29 gündür.
+Teslim Koşulları
+Her görev ayrı bir fonksiyon içinde tasarlanmalıdır.
+Kod okunabilir ve iyi yorumlanmış (comment) olmalıdır.
+Ödevde kullanılan koşullu yapılar (if-else, switch-case gibi) açıklanmalı ve her kod bloğunun mantığı kısaca anlatılmalıdır.
+Kodunuzu çalıştırdığınız test çıktıları ile birlikte sunmalısınız.
+Değerlendirme Kriterleri
+✅ Kodun doğruluğu (her koşulu kapsayıp kapsamadığı)
+✅ Kodun okunabilirliği ve temiz yazım kuralları
+✅ Açıklamaların ve raporun kalitesi
+✅ İleri seviye düşünme ve hata kontrollerinin eklenmesi (örn. geçersiz girdi kontrolü)
+
+Ekstra Zorluk (Bonus Puan)
+ATM uygulamasına şifre doğrulama ve belirli haklar vererek daha güvenli bir yapı ekleyin.
+Not hesaplama programına ek olarak öğrenci ortalamasını hesaplayan bir fonksiyon yazın.
+İpucu ve Kaynaklar
+Python if-elif-else yapısı
+switch-case benzeri yapı için Python'da match-case (Python 3.10+)
+Artık yıl hesaplama algoritması
+Herhangi bir sorunuz olursa ofis saatlerimde veya e-posta yoluyla ulaşabilirsiniz. Başarılar dilerim! 😊
